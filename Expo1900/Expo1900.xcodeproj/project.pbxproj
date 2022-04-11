@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		642DEC2A2804496C00749D52 /* WorldFairPoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642DEC292804496C00749D52 /* WorldFairPoster.swift */; };
 		642DEC36280454D500749D52 /* Expo1900Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642DEC35280454D500749D52 /* Expo1900Tests.swift */; };
-		642DEC442804658B00749D52 /* Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 642DEC432804658B00749D52 /* Mock.json */; };
 		C79FF4B52589F401005FB0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79FF4B42589F401005FB0FD /* AppDelegate.swift */; };
 		C79FF4B72589F401005FB0FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79FF4B62589F401005FB0FD /* SceneDelegate.swift */; };
 		C79FF4B92589F401005FB0FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79FF4B82589F401005FB0FD /* ViewController.swift */; };
@@ -33,7 +32,6 @@
 		642DEC292804496C00749D52 /* WorldFairPoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldFairPoster.swift; sourceTree = "<group>"; };
 		642DEC33280454D500749D52 /* Expo1900Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Expo1900Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		642DEC35280454D500749D52 /* Expo1900Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expo1900Tests.swift; sourceTree = "<group>"; };
-		642DEC432804658B00749D52 /* Mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Mock.json; sourceTree = "<group>"; };
 		C79FF4B12589F401005FB0FD /* Expo1900.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expo1900.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79FF4B42589F401005FB0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C79FF4B62589F401005FB0FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 			children = (
 				642DEC292804496C00749D52 /* WorldFairPoster.swift */,
 				DABD3EB528044E4700C942F6 /* KoreaEntryDetail.swift */,
-				642DEC432804658B00749D52 /* Mock.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,7 +224,6 @@
 			files = (
 				C79FF4C12589F404005FB0FD /* LaunchScreen.storyboard in Resources */,
 				C79FF4BE2589F404005FB0FD /* Assets.xcassets in Resources */,
-				642DEC442804658B00749D52 /* Mock.json in Resources */,
 				C79FF4BC2589F401005FB0FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
