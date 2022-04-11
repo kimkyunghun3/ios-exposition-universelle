@@ -20,7 +20,7 @@ class Expo1900Tests: XCTestCase {
         super.tearDown()
     }
     
-    func test_load_Json() {
+    func test_load_Json_successful() {
         let decoder = JSONDecoder()
         guard let url = Bundle.main.url(forResource: "exposition_universelle_1900", withExtension: "json"),
               let data = try? Data(contentsOf: url)
