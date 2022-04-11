@@ -7,3 +7,16 @@
 
 import Foundation
 
+struct KoreaEntryDetail: Codable {
+    var name: String
+    var imageFileName: String
+    var shortDescription: String
+    var fullDescription: String
+    
+    enum KoreaEntryDetailCodingKeys: String, CodingKey {
+        case name
+        case imageFileName = "image_name"
+        case shortDescription = "short_desc"
+        case fullDescription = "desc"
+    }
+}
